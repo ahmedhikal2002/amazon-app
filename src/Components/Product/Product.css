@@ -1,0 +1,58 @@
+.product {
+  background-color: white;
+  padding: 15px;
+  transition: 0.4s all;
+  position: relative;
+}
+.product:hover {
+  background-color: var(--primary-color);
+  color: white;
+  transform: scale(1.05);
+}
+.product:hover img {
+  transform: scale(1.1) rotate(10deg);
+}
+.product p {
+  margin-bottom: 10px;
+}
+.product .rate {
+  color: gold;
+}
+.product .product-img {
+  margin: auto;
+  max-width: 200px;
+}
+.product .product-img img {
+  width: 100%;
+  transition: 0.6s transform;
+  margin-bottom: 20px;
+}
+.product .add-basket {
+  position: absolute;
+  background-color: var(--secondary-color);
+  width: 102px;
+  padding: 5px;
+  border: 1px solid;
+  border-color: #a88734 #9c7e31 #846a29;
+  cursor: pointer;
+  border-radius: 5px;
+  left: 50%;
+  transition: 0.3s transform;
+  margin-left: -51px;
+  bottom: 8px;
+}
+.product .add-basket:active {
+  transform: scale(0.7);
+}
+
+@media (max-width: 575px) {
+  .product {
+    font-size: 12px;
+  }
+  .product .product-img {
+    width: 120px;
+  }
+  .product .add-basket {
+    font-size: 10px;
+  }
+}

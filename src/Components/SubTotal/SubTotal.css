@@ -1,0 +1,24 @@
+.total {
+  background-color: #eaeded;
+  border: 1px solid #ddd;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin-top: 20px;
+  line-height: 1.6;
+}
+.total div:first-of-type {
+}
+.total .gift {
+  display: flex;
+  align-items: center;
+}
+.total .btn {
+  width: 100%;
+}
+
+@media (max-width: 575px) {
+  .total {
+    padding: 13px;
+  }
+}

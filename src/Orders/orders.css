@@ -1,0 +1,23 @@
+.orders {
+  padding: 40px;
+}
+
+.orders .total {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  justify-self: end;
+  border: 0;
+  flex-direction: row;
+  margin: -16px 0px;
+  background: transparent;
+}
+
+.orders .total-info {
+  padding: 3px;
+  border-radius: 3px;
+  width: fit-content;
+  background-color: rgba(0, 0, 255, 0.186);
+
+  font-size: 15px;
+}
