@@ -1,6 +1,6 @@
 # Live https://fir-e1b5b.web.app/
 
-## Order Page (./src/imgs/payment.JPG)
+## Order Page ![alt text](./src/imgs/payment.JPG)
 
 # Getting Started with Create React App
 
